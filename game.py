@@ -13,7 +13,7 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
 
 cap = cv2.VideoCapture(0)
 
-#Decrease frame size
+#Decrease frame Size 
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1000);
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 600);
 
